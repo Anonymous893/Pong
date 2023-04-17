@@ -185,7 +185,8 @@ def main():
         player1.displayScore(player1Name + ": ", player1Score, 100, 20, WHITE)
         player2.displayScore(player2Name + ": ", player2Score, WIDTH-100, 20, WHITE)
 
-        if player1Score == 3 or player2Score == 3:
+        # Game ends when one player reaches a score of 10
+        if player1Score == 10 or player2Score == 10:
             gameOver = True
 
         pygame.display.update()
@@ -195,7 +196,7 @@ def main():
             screen.fill(BLACK)
             font = pygame.font.Font('freesansbold.ttf', 50)
 
-            if player1Score == 3:
+            if player1Score == 10:
                 text = font.render(player1Name + " wins!", True, WHITE)
             else:
                 text = font.render(player2Name + " wins!", True, WHITE)

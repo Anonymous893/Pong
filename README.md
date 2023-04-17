@@ -6,7 +6,7 @@ The game is played by two players, each controlling a paddle on opposite sides o
 
 The player on the right uses the keys _w_ and _s_ to move up and down. The player on the left uses the _up key_ and _down key_ to go up and down.
 
-![](https://github.com/Anonymous893/Pong/blob/main/Images/pong.gif)
+![Alt text](https://github.com/Anonymous893/Pong/blob/main/Images/pong.gif)
 
 The objective of the game is to score points by hitting the ball past the other player's paddle.
 
@@ -22,4 +22,3 @@ In order to run this game, you can download the pong.py file and run it on the c
 
 #### Purpose and Learning
 I created this project for fun to practise my Python programming skills and learn about Pygame.
-

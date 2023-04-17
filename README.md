@@ -11,7 +11,7 @@ The player on the right uses the keys _w_ and _s_ to move up and down. The playe
 
 The game ends when one player reaches a score of 10 points. The player with the highest score at the end of the game is declared the winner.
 
-![Alt text](/Images/WinScreen.png?raw=true "Optional Title" {:height="50%" width="50%"})
+![Alt text](/Images/WinScreen.png){:height="50%" width="50%"}
 
 #### Installation and Prerequisites
 ###### Prerequisites

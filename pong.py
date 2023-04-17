@@ -202,7 +202,7 @@ def main():
                 text = font.render(player2Name + " wins!", True, WHITE)
             
             textRect = text.get_rect()
-            textRect.center = (450, 300)
+            textRect.center = (WIDTH//2, HEIGHT//2)
             
             screen.blit(text, textRect)
             pygame.display.update()
